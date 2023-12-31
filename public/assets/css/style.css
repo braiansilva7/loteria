@@ -113,7 +113,6 @@ table tr:hover td{
 .container
 {
     display: flex;
-    padding: 13px;
 }
 
 .ocultoMega{
