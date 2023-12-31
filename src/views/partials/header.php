@@ -6,8 +6,10 @@
     </head>
     <body>
         <header>
-            
-            <h1 class='textoJogos'>Cadastro de Jogos</h1>
+            <div class="image-container2">
+                <img src="<?=$base;?>/assets/images/cadastro.png" alt="">
+                <div class="text-below-image">Cadastro de Jogos</div>
+            </div>
             <hr/>
         </header>
         

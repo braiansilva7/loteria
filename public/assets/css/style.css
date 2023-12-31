@@ -133,6 +133,17 @@ table tr:hover td{
     height: auto;
 }
 
+.image-container2 {
+    display: flex; /* Habilita o layout de flexbox */
+    align-items: center; /* Alinha verticalmente */
+    margin-bottom: 20px;
+}
+
+.image-container2 img {
+    width: 50px; /* Largura da imagem */
+    height: auto;
+}
+
 .text-below-image {
     color: black; /* Cor do texto */
     background-color: rgba(255, 255, 255, 0.8); /* Fundo semi-transparente */
@@ -141,8 +152,4 @@ table tr:hover td{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: bold;
     margin-left: 10px; /* Espaçamento entre a imagem e o texto */
-}
-
-.textoJogos{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
