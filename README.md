@@ -33,5 +33,5 @@ class Usuario extends Model {
 ```
 
 ## Banco de Dados
-- Criar o banco *loterica*
-- Criar a tabela *jogos* com os seguintes campos: *id*, *sorteio*, *tipo*
+- Criar o banco **loterica**
+- Criar a tabela **jogos** com os seguintes campos: **id**, **sorteio**, **tipo**
