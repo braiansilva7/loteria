@@ -11,5 +11,4 @@
             <img src="<?=$base;?>/assets/images/trevo.avif" alt="">
             <div class="text-below-image">Trevo da Sorte</div>
         </div>
-            <hr/>
         </header>

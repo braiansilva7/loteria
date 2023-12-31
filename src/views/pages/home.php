@@ -1,6 +1,6 @@
 <?php $render('headerInicial'); ?>
 
-<a href="<?=$base;?>/sortear">Novo Jogo</a>
+<a href="<?=$base;?>/sortear" class="novo_jogo">Novo Jogo</a>
 
 <table border="1" width="100%">
     <tr>

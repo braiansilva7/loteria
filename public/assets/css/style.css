@@ -36,6 +36,7 @@ table tr:hover td{
     border-radius: 4px;
     cursor: pointer;
     margin-right: 5px;
+    font-family: cursive;
     
 }
 
@@ -55,6 +56,7 @@ table tr:hover td{
     margin-left: 5px;
     cursor: pointer;
     margin-top: 20px;
+    font-family: cursive;
 }
 
 .btnSalvar:hover{
@@ -156,4 +158,19 @@ table tr:hover td{
     font-size: 30px; /* Tamanho do texto */
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     margin-left: 10px; /* Espaçamento entre a imagem e o texto */
+}
+
+.novo_jogo{
+    padding: 7px;
+    border: 1px solid black;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    font-family: cursive;
+}
+
+.novo_jogo:hover{
+    background-color: red;
+    color: black;
+    font-weight: bold;
 }
