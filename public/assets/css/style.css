@@ -31,39 +31,40 @@ table tr:hover td{
 
 .sortear{
     width: 150px;
-    padding: 12px;
-    border: 1px solid black;
-    border-radius: 4px;
-    cursor: pointer;
-    margin-right: 5px;
+    padding: 10px 20px; /* Espaçamento interno */
+    background-color: white; /* Cor de fundo */
+    color: black; /* Cor do texto */
+    border: 1px solid black; /* Sem borda */
+    border-radius: 5px; /* Bordas arredondadas */
+    font-size: 16px; /* Tamanho da fonte */
+    cursor: pointer; /* Muda o cursor para indicar que é clicável */
+    transition: background-color 0.3s; /* Transição suave ao mudar a cor */
+    margin-top: 20px;
     font-family: cursive;
-    
+    margin-right: 5px;
 }
 
 .sortear:hover{
-    color: black;
-    font-weight: bold;
-    border: 1px solid black;
-    background-color: red;
+    background-color: red; /* Cor de fundo ao passar o mouse */
     transition: all 0.4s ease;
 }
 
-.btnSalvar{
+.btnSalvar {
     width: 150px;
-    padding: 12px;
-    border: 1px solid black;
-    border-radius: 4px;
-    margin-left: 5px;
-    cursor: pointer;
+    padding: 10px 20px; /* Espaçamento interno */
+    background-color: white; /* Cor de fundo */
+    color: black; /* Cor do texto */
+    border: none; /* Sem borda */
+    border-radius: 5px; /* Bordas arredondadas */
+    font-size: 16px; /* Tamanho da fonte */
+    cursor: pointer; /* Muda o cursor para indicar que é clicável */
+    transition: background-color 0.3s; /* Transição suave ao mudar a cor */
     margin-top: 20px;
     font-family: cursive;
 }
 
-.btnSalvar:hover{
-    color: black;
-    font-weight: bold;
-    border: 1px solid black;
-    background-color: red;
+.btnSalvar:hover {
+    background-color: red; /* Cor de fundo ao passar o mouse */
     transition: all 0.4s ease;
 }
 
@@ -162,16 +163,21 @@ table tr:hover td{
 }
 
 .novo_jogo{
-    padding: 7px;
-    border: 1px solid black;
     text-decoration: none;
-    background-color: black;
-    color: white;
+    width: 150px;
+    padding: 5px 20px; /* Espaçamento interno */
+    background-color: white; /* Cor de fundo */
+    color: black; /* Cor do texto */
+    border: 1px solid black; /* Sem borda */
+    border-radius: 5px; /* Bordas arredondadas */
+    font-size: 16px; /* Tamanho da fonte */
+    cursor: pointer; /* Muda o cursor para indicar que é clicável */
+    transition: background-color 0.3s; /* Transição suave ao mudar a cor */
     font-family: cursive;
 }
 
 .novo_jogo:hover{
-    background-color: red;
-    color: black;
-    font-weight: bold;
+    background-color: red; /* Cor de fundo ao passar o mouse */
+    transition: all 0.4s ease;
 }
+
