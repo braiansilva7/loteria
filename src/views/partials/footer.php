@@ -3,7 +3,7 @@
 
 <footer class="footer">
     <hr/>
-    Todos os Direitos Reservados...
+    Todos os Direitos Reservados
 </footer>
     
 </body>
