@@ -10,6 +10,7 @@ table{
 table th{
     padding: 10px;
     background-color: #999;
+    font-family: cursive;
 }
 table tr td{
     padding: 10px;
@@ -71,6 +72,7 @@ table tr:hover td{
     text-align: center;
     background-color: #87CEEB;
     margin-right: 5px;
+    font-family: cursive;
 }
 
 .lotoFacil
@@ -81,6 +83,7 @@ table tr:hover td{
     text-align: center;
     background-color: #87CEEB;
     margin-right: 5px;
+    font-family: cursive;
 }
 
 .Quina
@@ -91,6 +94,7 @@ table tr:hover td{
     text-align: center;
     background-color: #87CEEB;
     margin-right: 5px;
+    font-family: cursive;
 }
 
 .lotoMania
@@ -100,6 +104,7 @@ table tr:hover td{
     padding: 30px;
     text-align: center;
     background-color: #87CEEB;
+    font-family: cursive;
 }
 
 .container
@@ -120,7 +125,7 @@ table tr:hover td{
 }
 
 .footer{
-    padding: 40px;
+    padding: 20px;
 }
 
 .image-container {
@@ -149,7 +154,6 @@ table tr:hover td{
     background-color: rgba(255, 255, 255, 0.8); /* Fundo semi-transparente */
     text-align: center; /* Centraliza o texto */
     font-size: 30px; /* Tamanho do texto */
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     margin-left: 10px; /* Espaçamento entre a imagem e o texto */
 }
