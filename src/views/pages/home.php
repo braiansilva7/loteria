@@ -2,28 +2,32 @@
 
 <a href="<?=$base;?>/sortear" class="novo_jogo">Novo Jogo</a>
 
-<table border="1" width="100%">
-    <tr>
-        <th>ID</th>
-        <th>JOGOS</th>
-        <th>TIPO DE JOGO</th>
-        <th>AÇÕES</th>
-    </tr>
-
-    <?php foreach($jogos as $item): ?>
+    <table border="1" width="100%">
         <tr>
-            <td><?= $item['id']; ?></td>
-            <td><?= $item['sorteio']; ?></td>
-            <td><?= $item['tipo']; ?></td>
-            <td>
-            <a href="#" onclick="confirmDelete('<?=$item['id'];?>'); return false;">
-                <img width="20" src="<?=$base;?>/assets/images/excluir.png" alt="Excluir">
-            </a>
-            </td>
+            <th>ID</th>
+            <th>JOGOS</th>
+            <th>TIPO DE JOGO</th>
+            <th>AÇÕES</th>
         </tr>
-    <?php endforeach; ?>
-</table>
-
+        <?php if(!empty($jogos)): ?>
+            <?php foreach($jogos as $item): ?>
+                <tr>
+                    <td><?= $item['id']; ?></td>
+                    <td><?= $item['sorteio']; ?></td>
+                    <td><?= $item['tipo']; ?></td>
+                    <td>
+                    <a href="#" onclick="confirmDelete('<?=$item['id'];?>'); return false;">
+                        <img width="20" src="<?=$base;?>/assets/images/excluir.png" alt="Excluir">
+                    </a>
+                    </td>
+                </tr>
+            <?php endforeach; ?>
+        <?php else: ?>
+            <tr>
+                <td colspan="4" class="nCadastrado">Nenhum jogo cadastrado!</td>
+            </tr>
+        <?php endif; ?>
+    </table>
 <script>
     function confirmDelete(id) {
         Swal.fire({

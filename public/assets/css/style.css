@@ -181,3 +181,11 @@ table tr:hover td{
     transition: all 0.4s ease;
 }
 
+.nCadastrado{
+    padding: 10px;
+    font-family: cursive;
+    align-items: center;
+    font-size: 20px;
+    text-align: center;
+}
+
